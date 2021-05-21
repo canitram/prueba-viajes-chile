@@ -24,3 +24,8 @@ header .navbar {
 #nosotros{
     width: 100%;
 }
+
+.card{
+    background-color: #33bfcc;
+    color: #fff;
+}
