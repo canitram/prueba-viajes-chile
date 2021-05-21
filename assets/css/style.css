@@ -1,0 +1,26 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+}
+
+/* header */
+header .navbar {
+    background-color: transparent !important;
+}
+
+/* main */
+    
+.head-nosotros{
+    background-color: #33bfcc;
+    color: #fff;
+}
+
+.title-section{
+    border-bottom: 2px solid #33bfcc;
+    padding-top: 2em;
+}
+
+
+#nosotros{
+    width: 100%;
+}
