@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Raleway', sans-serif;
     background-color: #000;
     color: #fff;
@@ -10,6 +10,11 @@ header .navbar {
 }
 
 /* main */
+
+#destacado, #nosotros{    
+    margin-bottom: 5rem;
+}
+
 .title-section{
     border-bottom: 2px solid #33bfcc;
     color: #fff;
@@ -20,7 +25,6 @@ header .navbar {
     margin-bottom : 1rem;
 }
 
-    
 .head-nosotros{
     background-color: #33bfcc;
     font-size: 1.3rem;
@@ -29,4 +33,41 @@ header .navbar {
 .card{
     background-color: #33bfcc;
     color: #fff;
+}
+
+
+
+/* media querys */
+@media (max-width: 767.98px) {
+    #nosotros{
+        display:none;
+    }
+
+
+    
+}
+
+@media (max-width: 991.98px) {
+    #nosotros{
+        width: 80%;
+        padding-left: 20%;
+        text-align: justify;
+
+    }
+    .head-nosotros{
+        display: none;
+    }
+
+    .body-nosotros{
+        padding-top: 3rem;
+    }
+
+    .body-nosotros p::first-letter{
+        float: left;
+        font-size: 5.4em;
+        line-height: 1;
+        margin-right: .6rem;
+    }
+
+
 }
