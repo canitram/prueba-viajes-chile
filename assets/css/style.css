@@ -1,30 +1,29 @@
 body{
     font-family: 'Raleway', sans-serif;
     background-color: #000;
+    color: #fff;
 }
 
 /* header */
 header .navbar {
     background-color: transparent;
-    padding-left:2rem;
-    padding-right: 2rem;
 }
 
 /* main */
+.title-section{
+    border-bottom: 2px solid #33bfcc;
+    color: #fff;
+    font-weight: 500;
+}
+
+.title-section h4{
+    margin-bottom : 1rem;
+}
+
     
 .head-nosotros{
     background-color: #33bfcc;
-    color: #fff;
-}
-
-.title-section{
-    border-bottom: 2px solid #33bfcc;
-    padding-top: 2em;
-}
-
-
-#nosotros{
-    width: 100%;
+    font-size: 1.3rem;
 }
 
 .card{
