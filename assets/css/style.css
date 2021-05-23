@@ -5,8 +5,13 @@ body {
 }
 
 /* header */
-header .navbar {
+.navbar {
     background-color: transparent;
+}
+
+.bg-scroll{
+    background-color:rgba(32, 37, 38, 0.9);
+    font-weight: 500;
 }
 
 /* main */
