@@ -8,7 +8,7 @@ body {
 .navbar {
     background-color: transparent;
 }
-
+/* fondo de nav cambia */
 .bg-scroll{
     background-color:rgba(32, 37, 38, 0.9);
     font-weight: 500;
@@ -41,45 +41,48 @@ body {
     border: #fff solid 1px;
 }
 
+/* iguala tamaño de img */
 .card-img-top{
     object-fit: cover;
     height: 10rem;
 }
 
+.color-footer{
+    background-color: #33bfcc;
+    color:#fff;
+    font-size: 1.2rem;
+}
+
 .footer-brand{
-    font-weight: 800;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
+.footer-icons{
+    width: auto;
+    padding-left: 30%;
+}
+
+/* div escondido en desktop device */
 #show-sm{
     display: none;
 }
 
-
 /* media querys */
 @media (max-width: 767.98px) {
-    #nosotros{
+    #nosotros{           /*esconde seccion en sm device*/
         display:none;
     }
-
-    #hide-sm{
-        display: none;
-    }
-
-    #show-sm{
-        display:block;
-    }
-
 }
 
 @media (max-width: 991.98px) {
-    #nosotros{
+    #nosotros{                  /*ajusta estilo de elementos*/
         width: 80%;
         padding-left: 20%;
         text-align: justify;
-
     }
-    .head-nosotros{
+
+    .head-nosotros{ /* esconde iconos de seccion nosotros */
         display: none;
     }
 
@@ -87,12 +90,30 @@ body {
         padding-top: 3rem;
     }
 
-    .body-nosotros p::first-letter{
+    .body-nosotros p::first-letter{ /* efecto de mayuscula al iniciar parrafo */
         float: left;
         font-size: 5.4em;
         line-height: 1;
         margin-right: .6rem;
     }
 
+    .card{ /* posicionamiento en x */
+        margin: auto;
+        width: 80%;
+    }
 
+    #hide-sm{                /* modifica footer */
+        display: none;
+    }
+
+    #show-sm{
+        display:block;
+        text-align: center;
+    }
+
+    .footer-icons{
+        margin: auto;
+        padding: 0;
+        font-size: 2rem;
+    }   
 }
