@@ -10,8 +10,8 @@ body {
 }
 /* fondo de nav cambia */
 .bg-scroll{
-    background-color:rgba(32, 37, 38, 0.9);
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 /* main */
